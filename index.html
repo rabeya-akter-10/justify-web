@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal-Solution</title>
+
+    <!--Tailwind-->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--DaisyUI CDN-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/9a1677510c.js" crossorigin="anonymous"></script>
+
+
+
+</head>
+
+<body>
+    <!--Header Section-->
+
+    <header class="container lg:w-3/4 px-4 mx-auto ">
+
+        <!--navbar-->
+
+        <section class=" lg:w-3/4 mx-auto">
+            <div class="navbar bg-white fixed top-0 left-0 px-4 lg:px-48">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <label tabindex="0" class="btn btn-ghost lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                        </label>
+                        <ul tabindex="0"
+                            class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-white rounded-box w-52">
+                            <li><a href="">Home</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#cases">Cases</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#mission">Mission</a></li>
+                            <li><a href="#contact">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <a class="btn btn-ghost normal-case lg:w-40 w-32"><img src="images/logo2.png" alt=""></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                    <ul class="menu menu-horizontal px-1">
+                        <li><a href="">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#cases">Cases</a></li>
+                        <li><a href="#blog">Blog</a></li>
+                        <li><a href="#mission">Mission</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+
+                    <!--Modal-->
+
+                    <a href="#my-modal-2"
+                        class="text-white bg-[#B68C5A] hover:bg-orange-300 border-none font-semibold rounded-lg lg:text-lg lg:px-5 lg:py-2.5 px-2 py-2 text-sm text-center  md:mr-0">Free
+                        Consultation</a>
+
+                    <div class="modal" id="my-modal-2">
+                        <div class="modal-box">
+                            <h3 class="font-bold text-lg">A free consultation is a one-on-one interaction, conversation,
+                                meeting, or interview given freely to share one's thoughts and discuss possible
+                                opportunities of working together. Despite their obvious appeal, successfully marketing
+                                a
+                                free consultation isn't as easy as it sounds.</p>
+                                <div class="modal-action">
+                                    <a href="#" class="btn">Visit</a>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Top banner section-->
+        <section class="bg-[url('images/banner.png')] h-[550px]  mt-28 rounded-xl">
+            <div
+                class="text-white lg:w-3/5 px-6 mx-auto text-center  flex flex-col justify-center items-center space-y-8 h-[550px]">
+                <div>
+
+                    <h1 class=" lg:text-6xl text-3xl font-bold">
+                        We Provide Effective Legal Solutions
+                    </h1>
+                </div>
+                <div>
+                    <p>Justis assesses the reliability of individuals and organisations to promote a safe and just
+                        society. Read more about Justis. Required documents.
+                    </p>
+                </div>
+
+                <div class="flex flex-col lg:flex-row gap-3">
+                    <div class="">
+                        <input class="py-3 px-4 bg-white w-full rounded-lg" type="text"
+                            placeholder="Search your services">
+                    </div>
+
+                    <div>
+                        <a href=""><button
+                                class="text-white bg-[#B68C5A] hover:bg-orange-300  font-semibold rounded-lg text-xl px-5 py-2.5 text-center">
+                                Search
+                            </button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--Main Section-->
+
+    <main class="container lg:w-3/4 mx-auto  ">
+
+        <!--Legal practice area-->
+        <section class="mt-28" id="services">
+            <div class="flex flex-col justify-center items-center text-center space-y-6 mb-14">
+                <h1 class="text-4xl font-bold">
+                    The Legal Practice Area
+                </h1>
+                <p class="w-2/3 mx-auto">
+                    Legal practice is sometimes used to distinguish the body of judicial or administrative precedents,
+                    rules, policies, customs, and doctrines from legislative
+                </p>
+            </div>
+
+            <!--Card Section-->
+            <!--Card 1-->
+
+            <div class="lg:grid grid-cols-3">
+
+                <div
+                    class="services-box text-center flex flex-col justify-center items-center space-y-6 py-8 px-5 h-[400px] rounded-xl hover:bg-[#02225a] hover:text-white border">
+                    <div class=" text-3xl font-bold ">
+                        <img src=" images/business.png" alt="">
+                    </div>
+                    <h3 class=" text-2xl font-semibold ">Business Law</h3>
+                    <p>
+                        Business law is a crucial component of law in general since, without it, the corporate,
+                        manufacturing, and retail sectors would all be under a dictator's rule.
+
+                    </p>
+                    <div>
+                        <a href="" class="bg-[#B68C5A] text-white px-1 text-lg rounded-full"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+
+                <!--Card 2-->
+
+                <div
+                    class="services-box text-center flex flex-col justify-center items-center space-y-6 py-8 px-5 h-[400px] rounded-xl hover:bg-[#02225a] hover:text-white border">
+                    <div class=" text-3xl font-bold ">
+                        <img src="images/criminal.png" alt="">
+                    </div>
+                    <h3 class=" text-2xl font-semibold ">Criminal Law</h3>
+                    <p>
+                        Criminal law is the body of law that relates to crime. It prescribes conduct perceived as
+                        threatening, harmful, or otherwise endangering to the property
+
+                    </p>
+                    <div>
+                        <a href="" class="bg-[#B68C5A] text-white px-1 text-lg rounded-full"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+                <!--Card 3-->
+
+                <div
+                    class="services-box text-center flex flex-col justify-center items-center space-y-6 py-8 px-5 h-[400px] rounded-xl hover:bg-[#02225a] hover:text-white border">
+                    <div class=" text-3xl font-bold ">
+                        <img src="images/child.png" alt="">
+                    </div>
+                    <h3 class=" text-2xl font-semibold ">child Support</h3>
+                    <p>
+                        Child support (or child maintenance) is an ongoing, periodic payment made by a parent for the
+                        financial benefit of a child (or parent, caregiver,
+
+                    </p>
+                    <div>
+                        <a href="" class="bg-[#B68C5A] text-white px-1 text-lg rounded-full"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+                <!--Card 4-->
+
+                <div class="services-box text-center flex flex-col justify-center items-center space-y-6 py-8 px-5 h-[400px] rounded-xl hover:bg-[#02225a] hover:text-white border"
+                    id="secvices">
+                    <div class=" text-3xl font-bold ">
+                        <img src="images/education.png" alt="">
+                    </div>
+                    <h3 class=" text-2xl font-semibold ">Education Law</h3>
+                    <p>
+                        Education law is a set of rules and regulations that guide the workings of an education system.
+                        Many regions have detailed educational law systems
+
+                    </p>
+                    <div>
+                        <a href="" class="bg-[#B68C5A] text-white px-1 text-lg rounded-full"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+                <!--Card 5-->
+
+                <div
+                    class="services-box text-center flex flex-col justify-center items-center space-y-6 py-8 px-5 h-[400px] rounded-xl hover:bg-[#02225a] hover:text-white border">
+                    <div class=" text-3xl font-bold ">
+                        <img src="images/divorce.png" alt="">
+                    </div>
+                    <h3 class=" text-2xl font-semibold ">Divorce Law</h3>
+                    <p>
+                        The complete guidance of divorce procedure in Bangladesh, which includes the procedure for
+                        Muslim, Hundu & Chrisitan divorce under Bangladesh Family Law.
+
+                    </p>
+                    <div>
+                        <a href="" class="bg-[#B68C5A] text-white px-1 text-lg rounded-full"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+                <!--Card 6-->
+
+                <div
+                    class="services-box text-center flex flex-col justify-center items-center space-y-6 py-8 px-5 h-[400px] rounded-xl hover:bg-[#02225a] hover:text-white border">
+                    <div class=" text-3xl font-bold ">
+                        <img src="images/tax.png" alt="">
+                    </div>
+                    <h3 class=" text-2xl font-semibold ">Tax Law</h3>
+                    <p>
+                        tax law, body of rules under which a public authority has a claim on taxpayers, requiring them
+                        to transfer to the authority part of their income or property.
+
+                    </p>
+                    <div>
+                        <a href="" class="bg-[#B68C5A] text-white px-1 text-lg rounded-full"><i
+                                class="fa-solid fa-arrow-right"></i></a>
+
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Client Section-->
+        <section class="mt-28 px-4" id="cases">
+            <div class="flex flex-col justify-center items-center text-center space-y-6 mb-14">
+                <h2 class="text-4xl font-bold">What Our Client Say</h2>
+                <p class="lg:w-2/3 mx-auto">Our relationship is very informal, and we communicate on a daily basis and
+                    with
+                    monthly and quarterly
+                    meetings. They understand our business to the core and al</p>
+            </div>
+            <!--Carusel-->
+
+            <div>
+                <div class="carousel w-full rounded-xl">
+                    <!--Slide 1-->
+                    <div id="slide1" class="carousel-item relative h-[500px] w-full">
+                        <div class="bg-[url('images/slider-1.jpg')] w-full ">
+                            <div class="bg-[url('images/rectangle-5.png')] w-full text-white h-full  mx-auto">
+                                <div
+                                    class="flex flex-col justify-center items-center  text-center h-full w-3/4 mx-auto space-y-4 lg:space-y-8">
+                                    <div>
+                                        <img class="w-20" src="images/user-1.png" alt="">
+                                    </div>
+                                    <h2 class="text-2xl font-extrabold">Awlad Hossain</h2>
+
+                                    <h3>UIX Designer</h3>
+
+                                    <p>"I like the way that SilverDisc take time to understand your business, and
+                                        interpret
+                                        it thorough the digital marketing world in ways that you can understand and
+                                        incorporate successfully into our business strategy. SilverDisc have given us a
+                                        better understanding of digital marketing strategies, and they have effectively
+                                        increased business introductions too Arkle.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                    <!--Slide 2-->
+                    <div id="slide2" class="carousel-item relative h-[500px] w-full">
+                        <div class="bg-[url('images/slider-2.jpg')] w-full  ">
+                            <div class="bg-[url('images/rectangle-5.png')] w-full text-white h-full  mx-auto">
+                                <div
+                                    class="flex flex-col justify-center items-center  text-center h-full w-3/4 mx-auto space-y-4 lg:space-y-8">
+                                    <div>
+                                        <img class="w-20" src="images/user-2.png" alt="">
+                                    </div>
+                                    <h2 class="text-2xl font-extrabold">Jenifa Islam</h2>
+
+                                    <h3>Housewife</h3>
+
+                                    <p>"I like the way that SilverDisc take time to understand your business, and
+                                        interpret
+                                        it thorough the digital marketing world in ways that you can understand and
+                                        incorporate successfully into our business strategy. SilverDisc have given us a
+                                        better understanding of digital marketing strategies, and they have effectively
+                                        increased business introductions too Arkle.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+                    <!--Slide 3-->
+                    <div id="slide3" class="carousel-item relative h-[500px] w-full">
+                        <div class="bg-[url('images/slider-3.jpg')] w-full  ">
+                            <div class="bg-[url('images/rectangle-5.png')] w-full text-white h-full  mx-auto">
+                                <div
+                                    class="flex flex-col justify-center items-center  text-center h-full w-3/4 mx-auto space-y-4 lg:space-y-8">
+                                    <div>
+                                        <img class="w-20" src="images/user-3.png" alt="">
+                                    </div>
+                                    <h2 class="text-2xl font-extrabold">Chunky Pandey</h2>
+
+                                    <h3>House holder</h3>
+
+                                    <p>"I like the way that SilverDisc take time to understand your business, and
+                                        interpret
+                                        it thorough the digital marketing world in ways that you can understand and
+                                        incorporate successfully into our business strategy. SilverDisc have given us a
+                                        better understanding of digital marketing strategies, and they have effectively
+                                        increased business introductions too Arkle.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <!--Question Section-->
+        <section class="mt-28 px-4" id="blog">
+            <div class="flex flex-col justify-center items-center text-center space-y-6 mb-14">
+                <h1 class="text-4xl font-bold">
+                    Frequently Asked Any Questions
+                </h1>
+                <p class="lg:w-2/3 mx-auto">
+                    A frequently asked questions list is often used in articles, websites, email lists, and online
+                    forums where common questions tend to recur, for example through posts or queries by new users
+                    related to common knowledge gaps.
+                </p>
+            </div>
+            <div class="lg:grid grid-cols-2 gap-4">
+                <!--Collapse Section-->
+                <div>
+                    <div class="flex flex-col gap-3">
+                        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                1.What is the diffrence between flex box and grid?
+                            </div>
+                            <div class="collapse-content">
+                                <p>The basic difference between CSS Grid Layout and CSS Flexbox Layout is
+                                    that flexbox was designed for layout in one dimension - either a row or a column.
+                                    Grid
+                                    was designed for two-dimensional layout - rows, and columns at the same time.</p>
+                            </div>
+                        </div>
+                        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                2.what is the purpose of media-queries?
+                            </div>
+                            <div class="collapse-content">
+                                <p>Media queries are a key part of responsive web design, as they allow you to create
+                                    different layouts depending on the size of the viewport, but they can also be used
+                                    to
+                                    detect other things about the environment your site is running on</p>
+                            </div>
+                        </div>
+
+                        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+
+                            <div class="collapse-title text-xl font-medium">
+                                3.What is CSS box model?
+                            </div>
+                            <div class="collapse-content">
+                                <p>The CSS Box model is a box binding HTML element that includes padding, border,
+                                    margin,
+                                    and the actual content. With the box model, we get the authority to add a border all
+                                    around elements and define space between elements.In the center of the box model
+                                    exist
+                                    main content the first layer around the content is padding second layer is border
+                                    and
+                                    last layer is margin we can include height and width also in box model.
+                                </p>
+                            </div>
+                        </div>
+                        <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+                            <div class="collapse-title text-xl font-medium">
+                                4.What is semantics tag?
+                            </div>
+                            <div class="collapse-content">
+                                <p>The semantic HTML tags help the search engines and other user devices to determine
+                                    the
+                                    importance and context of web pages. The pages made with semantic elements are much
+                                    easier to read. It has greater accessibility. It offers a better user experience.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Banner section-->
+                <div class="flex justify-center items-center mt-5">
+
+                    <img class="w-3/4" src="images/faq.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!--Mission Section-->
+        <section class="mt-28 px-4" id="mission">
+            <div>
+                <div class=" flex flex-col justify-center items-center text-center space-y-6 mb-14">
+                    <h2 class="text-4xl font-bold">Our Mission</h2>
+                    <p class="lg:w-2/3 mx-auto">
+                        A mission statement is an action-oriented statement declaring the purpose an organization serves
+                        to its audience. It often includes a general description of the organization, its function, and
+                        its objectives.
+                    </p>
+                </div>
+                <div class="lg:flex justify-center items-center gap-12">
+
+                    <div class=" flex flex-col space-y-8 shadow-lg text-center py-16 px-5 hover:bg-red-50 rounded-lg">
+                        <h2 class="text-2xl font-bold">
+                            Mission
+                        </h2>
+                        <p>A mission statement clarifies what the company wants to achieve,
+                            who they want to support, and why they want to support them. On the other hand?
+
+                        </p>
+                    </div>
+                    <div class=" flex flex-col space-y-8 shadow-lg text-center py-16 px-5  hover:bg-red-50 rounded-lg">
+                        <h2 class="text-2xl font-bold">
+                            Vision
+                        </h2>
+                        <p>A vision statement almost sounds mystical. But it’s not
+                            supernatural, far from it. Rather, a vision statement is a foundational business document.
+
+                        </p>
+                    </div>
+                    <div class="flex flex-col space-y-8 shadow-lg text-center py-16 px-5 hover:bg-red-50 rounded-lg">
+                        <h2 class="text-2xl font-bold">
+                            Goals
+                        </h2>
+                        <p>Knowing how to set goals and achieve them is an important
+                            process. Goal setting is powerful for creating motivation and giving clarity.
+
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!--Contact Section-->
+        <section class="mt-28 px-4">
+            <div class="flex flex-col justify-center items-center text-center space-y-6 mb-14">
+                <h1 class="text-4xl font-bold">
+                    Contact With Us
+                </h1>
+                <p class="lg:w-2/3 mx-auto">
+                    Just send us your questions or concerns by starting a new case and we will give you the help you
+                    need. Start Here. Live Chat. Chat with a member of our in-house
+                </p>
+            </div>
+
+            <!--Contact info section-->
+            <div class="grid lg:grid-cols-2" id="contact">
+                <div class="flex flex-col justify-center items-center gap-4 lg:grid lg:grid-cols-2 lg:gap-0 ">
+                    <div
+                        class="services-box text-center bg-[#F3F3F3] flex flex-col justify-center items-center mt-12px lg:mt-0 space-y-4 py-4 px-5 h-[278px] w-[278px] m-0  hover:bg-[#02225a] hover:text-white border">
+                        <div class=" text-3xl font-bold ">
+                            <img src="images/address.png" alt="">
+                        </div>
+                        <h3 class=" text-2xl font-semibold ">Address</h3>
+                        <p>
+                            A108 Adam Street, <br>
+                            New York, NY 535022
+
+                        </p>
+
+                    </div>
+                    <div
+                        class="services-box text-center bg-[#F3F3F3] flex flex-col justify-center items-center mt-12px lg:mt-0 space-y-4 py-4 px-5  h-[278px] w-[278px] m-0  hover:bg-[#02225a] hover:text-white border">
+                        <div class=" text-3xl font-bold ">
+                            <img src="images/call.png" alt="">
+                        </div>
+                        <h3 class=" text-2xl font-semibold ">Call US</h3>
+                        <p>
+                            +88 01750 00 00 00 <br>
+                            +88 01750 00 00 00
+
+                        </p>
+
+                    </div>
+                    <div
+                        class="services-box text-center bg-[#F3F3F3] flex flex-col justify-center items-center mt-12px lg:mt-0 space-y-4 py-4 px-5  h-[278px] w-[278px] m-0  hover:bg-[#02225a] hover:text-white border">
+                        <div class=" text-3xl font-bold ">
+                            <img src="images/email.png" alt="">
+                        </div>
+                        <h3 class=" text-2xl font-semibold ">Email Us</h3>
+                        <p>
+                            info@gmail.com <br>
+                            info@gmail.com
+
+                        </p>
+
+                    </div>
+                    <div
+                        class="services-box text-center bg-[#F3F3F3] flex flex-col justify-center items-center mt-12px lg:mt-0 space-y-4 py-4 px-5   h-[278px] w-[278px] m-0  hover:bg-[#02225a] hover:text-white border">
+                        <div class=" text-3xl font-bold ">
+                            <img src="images/time.png" alt="">
+                        </div>
+                        <h3 class=" text-2xl font-semibold ">Working Hours</h3>
+                        <p>
+                            Mon-Fri: 9AM to 5PM <br>
+                            Sunday: 9AM to 1 PM
+
+                        </p>
+
+                    </div>
+                </div>
+                <!--Contact Form Section-->
+
+                <div>
+                    <div class="contact-form w-1/2 flex justify-center mt-10 lg:mt-0 items-center mx-auto">
+                        <form class=" flex flex-col  space-y-4 " action="">
+                            <div class="">
+
+                                <input class="bg-[#F3F3F3] rounded-lg w-[350px] md:w-[500px] py-3 px-4" type="text"
+                                    placeholder="Your Name">
+                            </div>
+                            <div class="">
+
+                                <input class="bg-[#F3F3F3] rounded-lg w-[350px] md:w-[500px] py-3 px-4" type="email"
+                                    name="" id="" placeholder="Your Email">
+                            </div>
+                            <div class="">
+
+                                <input class="bg-[#F3F3F3] rounded-lg w-[350px] md:w-[500px] py-4 px-4" type="text"
+                                    placeholder="Subject">
+                            </div>
+                            <div class="w-full mx-auto">
+
+                                <textarea class="bg-[#F3F3F3] rounded-lg w-[350px] md:w-[500px] py-4 px-4" name="" id=""
+                                    rows="10" placeholder="Write Message Here..."></textarea>
+                            </div>
+                            <div class="text-center">
+
+                                <button
+                                    class=" bg-[#B68C5A] hover:bg-orange-300  text-white text-lg font-medium px-5 py-4 mx-auto w-full rounded-md">
+                                    <a href=" #contact">Send Message
+                                    </a>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <!--Footer Section-->
+    <footer class="bg-black text-white mt-12 lg:mt-32">
+
+        <section class="container  mx-auto  lg:px-36">
+            <!--Footer Info section-->
+            <div class="grid grid-cols-2 lg:grid-cols-4 pb-16 pt-11 lg:pt-24">
+
+
+                <div class="space-y-5 flex flex-col px-6 mt-5">
+                    <div>
+                        <img src="images/logo.png" alt="">
+
+                    </div>
+                    <div class=" flex flex-col space-y-4">
+
+                        <p>
+                            Justis assesses the reliability of individuals and organisations to promote a safe and
+                            just society. Read more about Justis.
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="space-y-5 flex flex-col px-6 mt-5">
+                    <h2 class="text-xl font-semibold">
+                        Usefull Links
+                    </h2>
+                    <div class="flex flex-col space-y-4">
+
+                        <a href="">Home</a>
+                        <a href="">About us</a>
+                        <a href="">Cases</a>
+                        <a href="">Blog</a>
+                        <a href="">Contact Us</a>
+                    </div>
+
+                </div>
+                <div class="space-y-5  flex flex-col px-6 mt-5">
+                    <h2 class="text-xl font-semibold">
+                        Contact Now
+                    </h2>
+                    <div class="flex flex-col space-y-4">
+                        <p>
+                            555 4th 5t NW, Washington
+                            DC 20530, United States
+                        </p>
+                        <p>
+                            +88 01750 000 000 <br>
+                            +88 01750 000 000
+                        </p>
+                        <p>
+                            info@gmail.com <br>
+                            info@gmail.com
+                        </p>
+
+                    </div>
+                </div>
+                <div class="space-y-11  flex flex-col px-6 mt-5">
+                    <h2 class="text-xl font-semibold">
+                        Subscribe
+                    </h2>
+
+                    <p>
+                        Subscribe for our latest & Articles. We Won't Give You Spam Mails
+                    </p>
+                    <div class="flex flex-col lg:flex-row lg:gap-0 space-y-2 lg:space-y-0">
+                        <div>
+
+                            <input class="bg-white py-3 px-3 rounded-lg  w-11/12 mr-0 " type="email" name="" id=""
+                                placeholder="Your Email">
+                        </div>
+
+                        <button class="bg-[#B68C5A] py-3 px-5 rounded-lg mx-auto text-white">
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+    </footer>
+
+</body>
+
+</html>
